@@ -14,14 +14,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!-- 
-    
-    
-    
-    
-3:15pm -->
-
-
+    <!-- 3:15pm -->
     <!-- header start here  -->
     <header>
         <div class="logo-area">
@@ -109,6 +102,22 @@
         </div>
     </section>
     <!-- lifestyle 2 area end here  -->
+    <!-- lifestyle 1 area start here  -->
+    <section class="lifestyle_3">
+        <div class="lifestyle_left">
+            <img src="images/item1.png" alt="Lifestyle 1">
+            <h5>Lifstyle</h5>
+            <h1>More than just a music festival</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+        </div>
+        <div class="lifestyle_right">
+            <img src="images/item2.png" alt="Lifestyle 2">
+            <h5>Lifestyle</h5>
+            <h1>Life tastes better with coffee</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+        </div>
+    </section>
+    <!-- lifestyle 1 area end here  -->
     <!-- load more button start here  -->
     <section class="load-more-button">
         <button>Load more</button>
@@ -136,5 +145,21 @@
         </footer>
     </section>
     <!-- footer area end here  -->
+
+
+    <!-- script start here  -->
+    <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript">
+        (function($){
+            $(document).ready(function(){
+                $('.lifestyle_3').hide();
+                $('.load-more-button button').click(function(){
+                    $('.load-more-button').fadeOut(100);
+                    $('.lifestyle_3').fadeIn(100);
+                });
+            });
+        })(jQuery)
+      </script>
+    <!-- script end here  -->
 </body>
 </html>
