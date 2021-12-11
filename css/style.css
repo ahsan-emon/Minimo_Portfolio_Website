@@ -1,0 +1,240 @@
+/* font-family: 'Playfair Display', serif;
+font-family: 'Ubuntu', sans-serif; */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+header {
+  width: 90%;
+  margin: auto;
+  overflow: hidden;
+  padding: 50px 0;
+}
+.logo-area {
+  float: left;
+  width: 20%;
+}
+.menu-area {
+  float: right;
+  width: 60%;
+}
+.menu-area ul {
+  list-style: none;
+  float: right;
+}
+.menu-area ul li {
+  float: left;
+  margin-left: 110px;
+}
+.menu-area ul li a {
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+  color: #626262;
+  font-family: "Playfair Display", serif;
+}
+.banner-area {
+  width: 90%;
+  margin: auto;
+}
+.banner-area img {
+  width: 100%;
+  margin-bottom: 50px;
+}
+.article-area {
+  width: 80%;
+  margin: auto;
+}
+.article-area h5 {
+  font-family: "Ubuntu", sans-serif;
+  text-transform: uppercase;
+  color: #b4ad9e;
+  margin-top: 40px;
+  font-size: 13px;
+  font-weight: 400;
+}
+.article-area h1 {
+  font-family: "Playfair Display", serif;
+  color: #626262;
+  margin: 20px 0;
+  font-size: 21px;
+  font-weight: 400;
+}
+.article-area p {
+  font-family: "Playfair Display", serif;
+  color: #626262;
+  font-size: 14px;
+}
+.lifestyle_1,
+.photodiary,
+.lifestyle_2 {
+  width: 80%;
+  margin: auto;
+  padding: 100px 0;
+  overflow: hidden;
+}
+.lifestyle_left,
+.photodiary_left {
+  float: left;
+  width: 47%;
+}
+.lifestyle_left img,
+.photodiary_left img {
+  width: 100%;
+}
+.lifestyle_left h5,
+.photodiary_left h5 {
+  font-family: "Ubuntu", sans-serif;
+  text-transform: uppercase;
+  color: #b4ad9e;
+  margin-top: 40px;
+  font-size: 13px;
+  font-weight: 400;
+}
+.lifestyle_left h1,
+.photodiary_left h1 {
+  font-family: "Playfair Display", serif;
+  color: #626262;
+  margin: 20px 0;
+  font-size: 21px;
+  font-weight: 400;
+}
+.lifestyle_left p,
+.photodiary_left p {
+  font-family: "Playfair Display", serif;
+  color: #626262;
+  font-size: 14px;
+}
+.lifestyle_right,
+.photodiary_right {
+  float: right;
+  width: 47%;
+}
+.lifestyle_right img,
+.photodiary_right img {
+  width: 100%;
+}
+.lifestyle_right h5,
+.photodiary_right h5 {
+  font-family: "Ubuntu", sans-serif;
+  text-transform: uppercase;
+  color: #b4ad9e;
+  margin-top: 40px;
+  font-size: 13px;
+  font-weight: 400;
+}
+.lifestyle_right h1,
+.photodiary_right h1 {
+  font-family: "Playfair Display", serif;
+  color: #626262;
+  margin: 20px 0;
+  font-size: 21px;
+  font-weight: 400;
+}
+.lifestyle_right p,
+.photodiary_right p {
+  font-family: "Playfair Display", serif;
+  color: #626262;
+  font-size: 14px;
+}
+.contact {
+  background-color: #f0f0f0;
+}
+.contact .message {
+  width: 16%;
+  margin: auto;
+  position: relative;
+}
+.message h1 {
+  font-family: "Playfair Display", serif;
+  color: #333333;
+  padding: 40px 0;
+  font-size: 25px;
+  font-weight: 400;
+}
+.message input {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #000;
+  padding: 11px 0;
+  background: transparent;
+  margin-bottom: 50px;
+  outline: none;
+  font-size: 15px;
+}
+.message input::placeholder {
+  font-family: "Playfair Display", serif;
+  color: #626262;
+  font-size: 12px;
+}
+.message img {
+  fill: #f0f0f0;
+  position: absolute;
+  top: 125px;
+  right: 0px;
+}
+.load-more-button {
+  width: 6%;
+  margin: auto;
+  padding-bottom: 100px;
+}
+.load-more-button button {
+  font-family: "Playfair Display", serif;
+  color: #626262;
+  border: 1px solid black;
+  padding: 12px 23px;
+  background: transparent;
+  cursor: pointer;
+}
+.footer {
+  background: #f0f0f0;
+}
+footer {
+  width: 85%;
+  margin-left: 10%;
+  margin-right: 5%;
+  overflow: hidden;
+  padding: 30px 0;
+}
+.rules {
+  float: left;
+  width: 20%;
+}
+.rules ul {
+  list-style: none;
+  overflow: hidden;
+}
+.rules ul li {
+  float: left;
+  margin-right: 25px;
+}
+.rules ul li a {
+  text-decoration: none;
+  font-family: "Playfair Display", serif;
+  color: #626262;
+  font-size: 14px;
+}
+.follow {
+  float: right;
+  width: 30%;
+}
+.follow ul {
+  float: right;
+  list-style: none;
+  overflow: hidden;
+}
+.follow ul li {
+  float: left;
+  margin-left: 20px;
+}
+.follow ul li p {
+  color: #000;
+  font-size: 14px;
+  font-family: "Playfair Display", serif;
+}
+.follow ul li a {
+  font-family: "Playfair Display", serif;
+  color: #626262;
+  font-size: 13px;
+}
