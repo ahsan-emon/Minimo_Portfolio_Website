@@ -145,7 +145,6 @@ header {
 .contact .message {
   width: 20%;
   margin: auto;
-  position: relative;
 }
 .message h1 {
   font-family: "Playfair Display", serif;
@@ -169,11 +168,13 @@ header {
   color: #626262;
   font-size: 14px;
 }
+.message form {
+  position: relative;
+}
 .message img {
-  fill: #f0f0f0;
   position: absolute;
-  top: 150px;
-  right: 0px;
+  right: 0;
+  bottom: 70px;
 }
 .load-more-button {
   width: 6%;
